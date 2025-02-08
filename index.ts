@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { glob, stat } from "node:fs/promises";
 import { argv, exit } from "node:process";
 import { getAudioDurationInSeconds } from "get-audio-duration";
@@ -6,7 +8,7 @@ import prettyMilliseconds from "pretty-ms";
 
 const MAX_PLAYTIME: number = 4800000;
 
-const paths: string[] = argv.slice(2) ?? (() => {
+const paths: string = argv.at(2) ?? (() => {
   console.error("Missing glob argument");
   exit(1);
 })();
