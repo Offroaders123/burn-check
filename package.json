@@ -1,0 +1,14 @@
+{
+  "name": "burn-check",
+  "type": "module",
+  "bin": "index.ts",
+  "dependencies": {
+    "get-audio-duration": "^4.0.1",
+    "pretty-bytes": "^6.1.1",
+    "pretty-ms": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
