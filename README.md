@@ -8,8 +8,6 @@ The general rule of thumb appears to be that it should be no longer than 80 minu
 
 ## Install
 
-This project is written purely in TypeScript, without a JavaScript build step. I wanted to try out the new `--experimental-strip-types` feature that is now unflagged and stable in Node v23.
-
 ```sh
 npm install --global git+https://github.com/Offroaders123/burn-check.git
 ```
